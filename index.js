@@ -40,7 +40,7 @@ async function getWindowsVersion() {
 
 async function sendToDiscord(platform, version) {
     const embed = {
-        description: `# 🔔 Roblox ${platform} Version Updated 🔔\n\n## 📗 The Roblox version has been updated to ${version}\n\n\⚠️ If the executor doesn't work, please wait for it to be patched from the executor.`,
+        description: `# 🔔 Roblox ${platform} Version Updated 🔔\n\n### 📗 The Roblox version has been updated to ${version}\n\n\⚠️ If the executor doesn't work, please wait for it to be patched from the executor.`,
         color: 65535
     };
 
